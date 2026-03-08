@@ -55,19 +55,23 @@
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%);
+  background: linear-gradient(
+    135deg,
+    var(--accent) 0%,
+    var(--accent-dark) 100%
+  );
   color: var(--navy);
   padding: 0.75rem 1.5rem;
   border-radius: 6px;
   font-weight: 600;
   font-size: 0.9rem;
-  box-shadow: 0 4px 12px rgba(232, 176, 75, 0.3);
+  box-shadow: 0 4px 12px rgba(245, 244, 243, 0.3);
   transition: all 0.2s ease;
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(232, 176, 75, 0.4);
+  box-shadow: 0 6px 16px rgb(253, 253, 252);
 }
 
 .btn-primary:active {
@@ -84,7 +88,11 @@
 }
 
 .error-banner {
-  background: linear-gradient(135deg, rgba(239, 68, 68, 0.15) 0%, rgba(239, 68, 68, 0.05) 100%);
+  background: linear-gradient(
+    135deg,
+    rgba(239, 68, 68, 0.15) 0%,
+    rgba(239, 68, 68, 0.05) 100%
+  );
   border: 1px solid rgba(239, 68, 68, 0.3);
   color: #fca5a5;
   padding: 1rem 1.5rem;

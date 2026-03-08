@@ -11,7 +11,7 @@
   --border: #334155;
   --success: #22c55e;
   --danger: #ef4444;
-  --warning: #f59e0b;
+  --warning: #ffffff;
 }
 
 * {
@@ -21,8 +21,16 @@
 }
 
 body {
-  font-family: 'Work Sans', -apple-system, sans-serif;
-  background: linear-gradient(135deg, var(--navy) 0%, var(--deep-blue) 50%, var(--slate) 100%);
+  font-family:
+    "Work Sans",
+    -apple-system,
+    sans-serif;
+  background: linear-gradient(
+    135deg,
+    var(--navy) 0%,
+    var(--deep-blue) 50%,
+    var(--slate) 100%
+  );
   color: var(--cream);
   min-height: 100vh;
   line-height: 1.6;
@@ -32,23 +40,27 @@ body {
   min-height: 100vh;
 }
 
-h1, h2, h3 {
-  font-family: 'Crimson Pro', Georgia, serif;
+h1,
+h2,
+h3 {
+  font-family: "Crimson Pro", Georgia, serif;
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: -0.02em;
 }
 
 button {
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   cursor: pointer;
   border: none;
   outline: none;
   transition: all 0.2s ease;
 }
 
-input, textarea, select {
-  font-family: 'Work Sans', sans-serif;
+input,
+textarea,
+select {
+  font-family: "Work Sans", sans-serif;
   outline: none;
 }
 
@@ -92,7 +104,8 @@ input, textarea, select {
 }
 
 @keyframes pulse {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 1;
   }
   50% {
